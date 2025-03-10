@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Amazing Human Memory</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 2.2em;
+            border-bottom: 3px solid #6e8efb;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #444;
+        }
+        
+        h3 {
+            font-size: 1.8em;
+            color: #6e8efb;
+            margin-top: 30px;
+        }
+        
+        h4 {
+            font-size: 1.4em;
+            color: #a777e3;
+        }
+        
+        p {
+            font-size: 1.1em;
+        }
+        
+        .intro {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .chapter {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .example {
+            background-color: #f0f7ff;
+            padding: 15px;
+            border-left: 4px solid #6e8efb;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .img-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #6e8efb;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 10px 10px 0 0;
+            margin-top: 30px;
+        }
+        
+        .nav {
+            background-color: #333;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        
+        .nav li {
+            padding: 15px 20px;
+        }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        
+        .nav a:hover {
+            color: #a777e3;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+            
+            h2 {
+                font-size: 1.8em;
+            }
+            
+            h3 {
+                font-size: 1.5em;
+            }
+            
+            .nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .nav li {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>THE AMAZING HUMAN MEMORY</h1>
+            <p>Understanding How We Remember: A Guide to Encoding, Storage, and Retrieval</p>
+        </div>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#encoding">Encoding</a></li>
+            <li><a href="#storage">Storage</a></li>
+            <li><a href="#retrieval">Retrieval</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="intro" class="intro">
+            <h2>INTRODUCTION</h2>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Brain neural network visualization" />
+            </div>
+            <p>Memory is not like a video recording that captures everything perfectly. Instead, it's a complex, dynamic process that can be influenced by many factors including attention, prior knowledge, and the passage of time. Our memories make us who we are, yet they can be surprisingly fragile and malleable.</p>
+            
+            <p>This guide will take you through the three main processes of memory:</p>
+            <ul>
+                <li><span class="highlight">Encoding:</span> How information enters our memory system</li>
+                <li><span class="highlight">Storage:</span> How information is maintained in memory</li>
+                <li><span class="highlight">Retrieval:</span> How information is brought back to consciousness</li>
+            </ul>
+            
+            <p>Let's explore the fascinating world of human memory!</p>
+        </section>
+        
+        <section id="encoding" class="chapter">
+            <h2>CHAPTER 1: ENCODING</h2>
+            <p><em>How We Get Information Into Memory</em></p>
+            
+            <h3>Richard Atkinson and Richard Shiffrin's Three-Stage Model of Memory</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Three-stage memory model diagram showing sensory, short-term, and long-term memory" />
+            </div>
+            <p>Atkinson and Shiffrin proposed that memory works in three stages:</p>
+            <ol>
+                <li><span class="highlight">Sensory Memory:</span> Brief storage of sensory information</li>
+                <li><span class="highlight">Short-Term Memory:</span> Temporary holding area for active information</li>
+                <li><span class="highlight">Long-Term Memory:</span> Permanent storage system with vast capacity</li>
+            </ol>
+            
+            <div class="example">
+                <p><strong>Example:</strong> Think of it like processing your mail: first, you see all pieces (sensory), then you hold what looks important (short-term), and finally file away what you need to keep (long-term).</p>
+            </div>
+            
+            <h3>Automatic vs. Effortful Processing</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Side-by-side comparison of automatic vs. effortful processing" />
+            </div>
+            
+            <h4>Automatic Processing</h4>
+            <p>Information processed without conscious effort</p>
+            <div class="example">
+                <p><strong>Example:</strong> Recognizing your friend's face in a crowd happens automatically</p>
+            </div>
+            <p>Includes processing of familiar faces, frequent words, and well-learned skills</p>
+            
+            <h4>Effortful Processing</h4>
+            <p>Requires attention and conscious effort</p>
+            <div class="example">
+                <p><strong>Example:</strong> When I studied Spanish vocabulary, I had to deliberately rehearse the words</p>
+            </div>
+            
+            <h4>Explicit and Implicit Memories</h4>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Brain regions associated with explicit and implicit memory" />
+            </div>
+            
+            <h4>Explicit Memories</h4>
+            <ul>
+                <li>Memories we consciously remember and can verbalize</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> I explicitly remember my 16th birthday party details</p>
+            </div>
+            
+            <h4>Implicit Memories</h4>
+            <ul>
+                <li>Memories that influence behavior without conscious awareness</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> I can ride a bike without thinking about the movements</p>
+            </div>
+            
+            <h3>Effortful Processing Strategies</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Various memory strategies illustrated" />
+            </div>
+            
+            <h4>Chunking</h4>
+            <p>Organizing items into meaningful units</p>
+            <div class="example">
+                <p><strong>Example:</strong> Remembering the phone number 8005551234 as 800-555-1234</p>
+            </div>
+            
+            <h4>Mnemonics</h4>
+            <p>Memory devices that help encode information</p>
+            <div class="example">
+                <p><strong>Example:</strong> I remember the Great Lakes using HOMES (Huron, Ontario, Michigan, Erie, Superior)</p>
+            </div>
+            
+            <h4>Imagery</h4>
+            <p>Creating mental pictures</p>
+            <div class="example">
+                <p><strong>Example:</strong> To remember to buy milk, I visualize spilled milk at my front door</p>
+            </div>
+            
+            <h4>Self-referential encoding</h4>
+            <p>Relating information to yourself</p>
+            <div class="example">
+                <p><strong>Example:</strong> I remember psychology terms better when I relate them to my own experiences</p>
+            </div>
+            
+            <h3>Spacing Effect</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Graph showing better retention with spaced versus massed practice" />
+            </div>
+            <p>Learning is more effective when spread out over time rather than crammed into one session.</p>
+            <div class="example">
+                <p><strong>Example:</strong> When studying for my AP Psychology exam, I review a little each day for two weeks instead of pulling an all-nighter before the test</p>
+            </div>
+            
+            <h3>Shallow vs. Deep Processing</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Diagram showing levels of processing from shallow to deep" />
+            </div>
+            
+            <h4>Shallow Processing (Non-Meaningful)</h4>
+            <ul>
+                <li>Processing based on structure or appearance</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> Noting that "psychology" has three syllables</p>
+            </div>
+            
+            <h4>Deep Processing (Meaningful)</h4>
+            <ul>
+                <li>Processing based on meaning and connections</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> Connecting the concept of "spacing effect" to my own study habits makes it stick in my memory</p>
+            </div>
+        </section>
+        
+        <section id="storage" class="chapter">
+            <h2>CHAPTER 2: STORAGE</h2>
+            <p><em>How We Retain Information</em></p>
+            
+            <h3>Sensory Memory</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Visual representation of sensory memory duration" />
+            </div>
+            <p>Holds sensory information very briefly (less than a second for visual, 3-4 seconds for auditory)</p>
+            <div class="example">
+                <p><strong>Example:</strong> The brief visual trail left by a sparkler on July 4th</p>
+            </div>
+            
+            <h4>Iconic Memory (Visual)</h4>
+            <ul>
+                <li>Brief photographic memory of visual stimuli</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> When I close my eyes, I can briefly "see" what I was just looking at</p>
+            </div>
+            
+            <h4>Echoic Memory (Auditory)</h4>
+            <ul>
+                <li>Brief memory of sounds</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> Hearing the echo of the last few words someone said to me</p>
+            </div>
+            
+            <h3>Short-Term/Working Memory</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Diagram of working memory components" />
+            </div>
+            <ul>
+                <li>Limited capacity (about 7±2 items)</li>
+                <li>Brief duration (about 20 seconds without rehearsal)</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> Holding a phone number in mind just long enough to dial it</p>
+            </div>
+            
+            <p>Working memory is the active mental workspace where we manipulate information.</p>
+            <div class="example">
+                <p><strong>Example:</strong> When solving a math problem in my head, I'm using working memory</p>
+            </div>
+            
+            <h3>Long-Term Memory</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Brain scan showing long-term memory activation" />
+            </div>
+            <ul>
+                <li>Vast storage capacity</li>
+                <li>Potentially lifelong duration</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> I can still remember my first day of kindergarten even though it was years ago</p>
+            </div>
+            
+            <h3>Explicit Memory System</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Explicit memory types and brain regions" />
+            </div>
+            <p>Conscious, intentional recollection of information</p>
+            <ul>
+                <li>Includes facts, events, concepts, and experiences</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> Recalling what I learned in class yesterday</p>
+            </div>
+            
+            <h4>Hippocampus</h4>
+            <p>Brain structure crucial for forming new explicit memories</p>
+            <div class="example">
+                <p><strong>Example:</strong> My hippocampus helped me form memories of my recent vacation to the beach</p>
+            </div>
+            
+            <h3>Implicit/Procedural Memory System</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Cerebellum and implicit memory pathways" />
+            </div>
+            <p>Unconscious, automatic memory for skills and procedures</p>
+            <div class="example">
+                <p><strong>Example:</strong> Playing the piano without thinking about where to place my fingers</p>
+            </div>
+            
+            <h4>Cerebellum</h4>
+            <p>Brain structure important for procedural memory and motor skills</p>
+            <div class="example">
+                <p><strong>Example:</strong> My cerebellum helps me ride a bike without conscious thought</p>
+            </div>
+            
+            <h3>The Amygdala and Memory / Flashbulb Memory</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Amygdala highlighted in brain illustration" />
+            </div>
+            
+            <p><strong>Amygdala:</strong> Brain structure that processes emotions, especially fear</p>
+            <ul>
+                <li>Links emotional significance to memories</li>
+            </ul>
+            <div class="example">
+                <p><strong>Example:</strong> The amygdala is why I vividly remember my first roller coaster ride (it was terrifying!)</p>
+            </div>
+            
+            <p><strong>Flashbulb Memory:</strong> Vivid, detailed memories of emotionally significant events</p>
+            <div class="example">
+                <p><strong>Example:</strong> Many people have flashbulb memories of where they were on 9/11</p>
+            </div>
+            
+            <h3>Proactive Interference</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Diagram showing old information blocking new information" />
+            </div>
+            <p>When old information interferes with remembering new information</p>
+            <div class="example">
+                <p><strong>Example:</strong> After learning Spanish for years, I struggle with Italian vocabulary because Spanish words come to mind first</p>
+            </div>
+            
+            <h3>Retroactive Interference</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Diagram showing new information blocking old information" />
+            </div>
+            <p>When new information interferes with remembering old information</p>
+            <div class="example">
+                <p><strong>Example:</strong> After learning my new address, I sometimes forget my old one</p>
+            </div>
+        </section>
+        
+        <section id="retrieval" class="chapter">
+            <h2>CHAPTER 3: RETRIEVAL</h2>
+            <p><em>How We Access Stored Information</em></p>
+            
+            <h3>How Do We Measure Retention?</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Different memory tests illustrated" />
+            </div>
+            
+            <h4>Recall</h4>
+            <p>Retrieving information without cues</p>
+            <div class="example">
+                <p><strong>Example:</strong> Essay test questions where I have to write everything I know about memory</p>
+            </div>
+            
+            <h4>Recognition</h4>
+            <p>Identifying previously learned information when presented with it</p>
+            <div class="example">
+                <p><strong>Example:</strong> Multiple-choice questions where I select the correct answer from options</p>
+            </div>
+            
+            <h4>Relearning</h4>
+            <p>How quickly you relearn forgotten information</p>
+            <div class="example">
+                <p><strong>Example:</strong> It takes less time to relearn Spanish vocabulary after summer break than it did to learn it initially</p>
+            </div>
+            
+            <h3>Misinformation Effect</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Illustration of memory distortion through misinformation" />
+            </div>
+            <p>When misleading information after an event alters memory of the event</p>
+            <div class="example">
+                <p><strong>Example:</strong> After watching news coverage of a crime, witnesses may incorporate details from the news into their own memory</p>
+            </div>
+            
+            <h3>Source Amnesia</h3>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Person trying to remember where they learned information" />
+            </div>
+            <p>Remembering information but forgetting where or when you learned it</p>
+            <div class="example">
+                <p><strong>Example:</strong> Sharing a "fact" I learned but not being able to remember if I read it or heard it from a friend</p>
+            </div>
+            
+            <h3>Retrieval Cues</h3>
+            <p>Stimuli that help us access stored memories</p>
+            
+            <h4>Priming</h4>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Neural network showing activation spreading" />
+            </div>
+            <p>Activation of associations in memory</p>
+            <div class="example">
+                <p><strong>Example:</strong> Seeing the word "doctor" helps me more quickly recognize the related word "nurse"</p>
+            </div>
+            
+            <h4>Mood/State Congruent Memory</h4>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Person remembering happy memories while feeling happy" />
+            </div>
+            <p>We better recall information when our current mood matches the mood when we learned it</p>
+            <div class="example">
+                <p><strong>Example:</strong> When I'm happy, I more easily remember other happy times in my life</p>
+            </div>
+            
+            <h4>Context-Dependent Memory</h4>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="Student studying and taking test in same environment" />
+            </div>
+            <p>Recall is better when in the same environment as learning</p>
+            <div class="example">
+                <p><strong>Example:</strong> Returning to the library where I studied helps me remember what I learned there</p>
+            </div>
+            
+            <h4>Serial Position Effect</h4>
+            <div class="img-container">
+                <img src="/api/placeholder/800/400" alt="U-shaped curve showing primacy and recency effects" />
+            </div>
+            
+            <p><strong>Primacy Effect:</strong> Better recall of information at the beginning of a list</p>
+            <div class="example">
+                <p><strong>Example:</strong> I easily remember the first few items on my shopping list</p>
+            </div>
+            
+            <p><strong>Recency Effect:</strong> Better recall of information at the end of a list</p>
+            <div class="example">
+                <p><strong>Example:</strong> Without a list, I usually remember the last few items I need to buy</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Created for AP Psychology | &copy; 2025 Memory Explorer</p>
+        </div>
+    </footer>
+</body>
+</html>
